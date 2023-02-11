@@ -1,0 +1,99 @@
+
+/* h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #191970;
+    top: 12%;
+    right:0px;
+    left:450px;
+    position: absolute;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background: #191970;
+    right: 0;
+    top: 12%;
+    left:830px;
+    position: absolute;
+  } */
+
+
+
+  h1 {
+    font-family: sans-serif;
+    margin: 20px auto;
+    color:#000;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    position: relative;
+  }
+  h1:before {
+    content: "";
+    display: block;
+    width: 214px;
+    height: 5px;
+    background: #191970;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    width: 214px;
+    height: 5px;
+    background:#191970;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+  .card{
+    margin:50px auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border-radius: 5px; 
+    border:1px solid orangered;
+  }
+  .card-title{
+    color:orangered;
+    font-weight:bold;
+    font-size: 25px;
+  }
+  .hrline1{
+    width:90%;
+    margin-left:45px;
+    height:2px;
+  }
+  .card-text{
+    color:orangered;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: line-through;
+    float:right;
+  }
+  .form-check{
+    float:left;
+    margin-top:20px;
+  }
+  .form-check-input{
+    margin-top:5px;
+  }
+  .form-check-label{
+    font-size:17px;
+  }
+  .plusicon1{
+    margin-top:10px;
+    margin-bottom:10px;
+   
+  }
+  .plus_circle{
+    float:right;
+    padding-right:20px;
+  }
+  

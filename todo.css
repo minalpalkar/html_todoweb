@@ -1,0 +1,130 @@
+
+/* ----newcss------ */
+.main_section{
+  margin-top:50px;
+}
+.card-title{
+  color:orangered;
+  font-weight:bold;
+  font-size: 25px;
+}
+.hrline1{
+  width:90%;
+  margin-left:45px;
+  height:2px;
+}
+.card{
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  transition: 0.3s; */
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+  border-radius: 5px; 
+  border:1px solid orangered;
+}
+.card-body{
+  
+}
+.card-text{
+  color:orangered;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: line-through;
+  float:right;
+}
+.form-check{
+  float:left;
+  margin-top:20px;
+}
+.form-check-input{
+  margin-top:5px;
+}
+.form-check-label{
+  font-size:17px;
+}
+.taskspart{
+  color:black;
+  font-weight: 700;
+  font-size:30px;
+}
+.listsparts{
+  color:gray;
+  font-size: 30px;
+}
+.addlists{
+  color:gray;
+  font-size: 30px;
+}
+.line2{
+  margin-top:90px;
+  width:100%;
+  color:red;
+  height:2px;
+}
+
+.for_button{
+  margin-top:10px;
+}
+.next{
+  text-decoration: none;
+}
+
+
+
+
+/* ------new css end------ */
+@media only screen and (max-width:600px){
+  .main-contaier, .container, .footer{
+    width: 80%;
+  }
+  .main-contaier{
+    float: left;
+    display: inline-block;
+  }
+  .icons{
+    display: inline-block;
+  
+  }
+  #add-list{
+    display: none;
+  }
+  .card1{
+    width:4rem;
+    height: 2rem;
+    
+  }
+  .div1{
+    display: none;  
+  }
+  .container1{
+    display: none;
+  }
+  .card2{
+    width:5rem;
+    height: 2rem;
+    
+  }
+
+  .div2{
+    display: none;  
+  }
+  .container2{
+    display: none;
+  }
+  .card3{
+    width:6rem;
+    height: 2rem;
+   
+  }
+  .div3{
+    display: none;  
+  }
+  .container3{
+    display: none;
+  }
+  .hr1{
+    display: none;
+  }
+  .footer{
+    margin-top: 500px;
+  }
+}
+
